@@ -24,7 +24,7 @@ else:
     else:
         print(f"\nHost {target} is down\n")
 
-passfile = "/home/patrickalderson/Documents/rockyou.txt"
+passfile = "dictionary_path"
 with open(passfile, "r") as f:
 
     for password in f:
